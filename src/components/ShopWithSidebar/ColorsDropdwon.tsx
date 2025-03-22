@@ -15,10 +15,10 @@ const ColorsDropdwon = () => {
           toggleDropdown && "shadow-filter"
         }`}
       >
-        <p className="text-white">Colors</p>
+        <p className="text-dark">Colors</p>
         <button
           aria-label="button for colors dropdown"
-          className={`text-white ease-out duration-200 ${
+          className={`text-dark ease-out duration-200 ${
             toggleDropdown && "rotate-180"
           }`}
         >

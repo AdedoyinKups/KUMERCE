@@ -16,12 +16,12 @@ const PriceDropdown = () => {
         onClick={() => setToggleDropdown(!toggleDropdown)}
         className="cursor-pointer flex items-center justify-between py-3 pl-6 pr-5.5"
       >
-        <p className="text-white">Price</p>
+        <p className="text-dark">Price</p>
         <button
           onClick={() => setToggleDropdown(!toggleDropdown)}
           id="price-dropdown-btn"
           aria-label="button for price dropdown"
-          className={`text-white ease-out duration-200 ${
+          className={`text-dark ease-out duration-200 ${
             toggleDropdown && 'rotate-180'
           }`}
         >
@@ -60,7 +60,7 @@ const PriceDropdown = () => {
             />
 
             <div className="price-amount flex items-center justify-between pt-4">
-              <div className="text-custom-xs text-white-4 flex rounded border border-gray-3/80">
+              <div className="text-custom-xs text-dark-4 flex rounded border border-gray-3/80">
                 <span className="block border-r border-gray-3/80 px-2.5 py-1.5">
                   $
                 </span>
@@ -69,7 +69,7 @@ const PriceDropdown = () => {
                 </span>
               </div>
 
-              <div className="text-custom-xs text-white-4 flex rounded border border-gray-3/80">
+              <div className="text-custom-xs text-dark-4 flex rounded border border-gray-3/80">
                 <span className="block border-r border-gray-3/80 px-2.5 py-1.5">
                   $
                 </span>

@@ -36,7 +36,7 @@ const BlogItem = ({ blog }: { blog: BlogItem }) => {
           </a>
         </span>
 
-        <h2 className="font-medium text-white text-lg sm:text-xl ease-out duration-200 mb-4 hover:text-red">
+        <h2 className="font-medium text-dark text-lg sm:text-xl ease-out duration-200 mb-4 hover:text-red">
           <Link href="/blogs/blog-details">{blog.title}</Link>
         </h2>
 

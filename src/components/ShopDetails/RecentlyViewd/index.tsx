@@ -30,7 +30,7 @@ const RecentlyViewdItems = () => {
           {/* <!-- section title --> */}
           <div className="mb-10 flex items-center justify-between">
             <div>
-              <span className="flex items-center gap-2.5 font-medium text-white mb-1.5">
+              <span className="flex items-center gap-2.5 font-medium text-dark mb-1.5">
                 <Image
                   src="/images/icons/icon-05.svg"
                   width={17}
@@ -39,7 +39,7 @@ const RecentlyViewdItems = () => {
                 />
                 Categories
               </span>
-              <h2 className="font-semibold text-xl xl:text-heading-5 text-white">
+              <h2 className="font-semibold text-xl xl:text-heading-5 text-dark">
                 Browse by Category
               </h2>
             </div>

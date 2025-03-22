@@ -41,7 +41,7 @@ const SingleItem = ({ item }) => {
             </div>
 
             <div>
-              <h3 className="text-white ease-out duration-200 hover:text-red">
+              <h3 className="text-dark ease-out duration-200 hover:text-red">
                 <a href="#"> {item.title} </a>
               </h3>
             </div>
@@ -50,7 +50,7 @@ const SingleItem = ({ item }) => {
       </div>
 
       <div className="min-w-[180px]">
-        <p className="text-white">${item.discountedPrice}</p>
+        <p className="text-dark">${item.discountedPrice}</p>
       </div>
 
       <div className="min-w-[275px]">
@@ -106,14 +106,14 @@ const SingleItem = ({ item }) => {
       </div>
 
       <div className="min-w-[200px]">
-        <p className="text-white">${item.discountedPrice * quantity}</p>
+        <p className="text-dark">${item.discountedPrice * quantity}</p>
       </div>
 
       <div className="min-w-[50px] flex justify-end">
         <button
           onClick={() => handleRemoveFromCart()}
           aria-label="button for remove product from cart"
-          className="flex items-center justify-center rounded-lg max-w-[38px] w-full h-9.5 bg-gray-2 border border-gray-3 text-white ease-out duration-200 hover:bg-red-light-6 hover:border-red-light-4 hover:text-red"
+          className="flex items-center justify-center rounded-lg max-w-[38px] w-full h-9.5 bg-gray-2 border border-gray-3 text-dark ease-out duration-200 hover:bg-red-light-6 hover:border-red-light-4 hover:text-red"
         >
           <svg
             className="fill-current"

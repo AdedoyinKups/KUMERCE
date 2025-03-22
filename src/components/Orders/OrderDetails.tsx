@@ -5,26 +5,26 @@ const OrderDetails = ({ orderItem }: any) => {
     <>
       <div className="items-center justify-between py-4.5 px-7.5 hidden md:flex ">
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Order</p>
+          <p className="text-custom-sm text-dark">Order</p>
         </div>
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Date</p>
+          <p className="text-custom-sm text-dark">Date</p>
         </div>
 
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Status</p>
+          <p className="text-custom-sm text-dark">Status</p>
         </div>
 
         {/* <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Title</p>
+          <p className="text-custom-sm text-dark">Title</p>
         </div> */}
 
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Total</p>
+          <p className="text-custom-sm text-dark">Total</p>
         </div>
 
         {/* <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">Action</p>
+          <p className="text-custom-sm text-dark">Action</p>
         </div> */}
       </div>
 
@@ -35,7 +35,7 @@ const OrderDetails = ({ orderItem }: any) => {
           </p>
         </div>
         <div className="min-w-[175px]">
-          <p className="text-custom-sm text-white">
+          <p className="text-custom-sm text-dark">
             {orderItem.createdAt}
           </p>
         </div>
@@ -57,11 +57,11 @@ const OrderDetails = ({ orderItem }: any) => {
         </div>
 
         {/* <div className="min-w-[213px]">
-          <p className="text-custom-sm text-white">{orderItem.orderTitle}</p>
+          <p className="text-custom-sm text-dark">{orderItem.orderTitle}</p>
         </div> */}
 
         <div className="min-w-[113px]">
-          <p className="text-custom-sm text-white">
+          <p className="text-custom-sm text-dark">
             {orderItem.total}
           </p>
         </div>
