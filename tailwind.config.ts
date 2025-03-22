@@ -51,15 +51,6 @@ const config: Config = {
         7: "#374151",
       },
       red: {
-        DEFAULT: "#3C50E0",
-        dark: "#1C3FB7",
-        light: "#5475E5",
-        "light-2": "#8099EC",
-        "light-3": "#ADBCF2",
-        "light-4": "#C3CEF6",
-        "light-5": "#E1E8FF",
-      },
-      red: {
         DEFAULT: "#F23030",
         dark: "#E10E0E",
         light: "#F56060",
@@ -95,6 +86,12 @@ const config: Config = {
       orange: {
         DEFAULT: "#F27430",
         dark: "#E1580E",
+      },
+      blue: {
+        DEFAULT: "#1E3A8A",
+        dark: "#1E40AF",
+        light: "#3B82F6",
+        "light-5": "#E1E8FF",
       },
     },
     screens: {
